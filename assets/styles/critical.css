@@ -41,6 +41,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
+  transition: all .2s linear;
 }
 
 .container {
@@ -499,11 +500,29 @@ svg {
 }
 
 .intro-img {
+  position: relative;
   width: 50%;
 }
 
 .intro-img img {
   margin: 0 auto;
+  opacity: 0;
+}
+
+.intro-img #man-socks,
+.intro-img #woman-socks,
+.intro-img #kid-socks,
+.intro-img #sport-socks {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.intro-img .active {
+  opacity: 1;
 }
 
 .header {
