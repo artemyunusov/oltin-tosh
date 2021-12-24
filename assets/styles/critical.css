@@ -198,6 +198,7 @@ svg {
   align-items: center;
   justify-content: center;
   background-color: #4EC354;
+  transition: all .3s linear;
 }
 
 .header .container {
@@ -331,6 +332,32 @@ svg {
   font-weight: 600;
   font-size: 16px;
   transition: all .15s linear;
+}
+
+.scroll-d {
+  height: 60px;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fbfbfb;
+}
+
+.scroll-d .header-call {
+  background-color: #4EC354;
+}
+
+.scroll-d .header-call a {
+  color: #fff;
+}
+
+.scroll-d .header-call a svg {
+  stroke: #fff;
+}
+
+.scroll-d .header-lang-link {
+  color: #4EC354;
+}
+
+.scroll-d .nav-link {
+  color: #4EC354;
 }
 
 .nav-list {
@@ -536,6 +563,7 @@ svg {
   align-items: center;
   justify-content: center;
   background-color: #4EC354;
+  transition: all .3s linear;
 }
 
 .header .container {
@@ -669,6 +697,32 @@ svg {
   font-weight: 600;
   font-size: 16px;
   transition: all .15s linear;
+}
+
+.scroll-d {
+  height: 60px;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fbfbfb;
+}
+
+.scroll-d .header-call {
+  background-color: #4EC354;
+}
+
+.scroll-d .header-call a {
+  color: #fff;
+}
+
+.scroll-d .header-call a svg {
+  stroke: #fff;
+}
+
+.scroll-d .header-lang-link {
+  color: #4EC354;
+}
+
+.scroll-d .nav-link {
+  color: #4EC354;
 }
 
 .header {
@@ -682,6 +736,7 @@ svg {
   align-items: center;
   justify-content: center;
   background-color: #4EC354;
+  transition: all .3s linear;
 }
 
 .header .container {
@@ -815,6 +870,32 @@ svg {
   font-weight: 600;
   font-size: 16px;
   transition: all .15s linear;
+}
+
+.scroll-d {
+  height: 60px;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fbfbfb;
+}
+
+.scroll-d .header-call {
+  background-color: #4EC354;
+}
+
+.scroll-d .header-call a {
+  color: #fff;
+}
+
+.scroll-d .header-call a svg {
+  stroke: #fff;
+}
+
+.scroll-d .header-lang-link {
+  color: #4EC354;
+}
+
+.scroll-d .nav-link {
+  color: #4EC354;
 }
 
 .header {
@@ -828,6 +909,7 @@ svg {
   align-items: center;
   justify-content: center;
   background-color: #4EC354;
+  transition: all .3s linear;
 }
 
 .header .container {
@@ -961,4 +1043,30 @@ svg {
   font-weight: 600;
   font-size: 16px;
   transition: all .15s linear;
+}
+
+.scroll-d {
+  height: 60px;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fbfbfb;
+}
+
+.scroll-d .header-call {
+  background-color: #4EC354;
+}
+
+.scroll-d .header-call a {
+  color: #fff;
+}
+
+.scroll-d .header-call a svg {
+  stroke: #fff;
+}
+
+.scroll-d .header-lang-link {
+  color: #4EC354;
+}
+
+.scroll-d .nav-link {
+  color: #4EC354;
 }
