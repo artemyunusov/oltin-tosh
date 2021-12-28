@@ -13,6 +13,21 @@
 </head>
 
 <style>
+
+  .burger,
+  .nav-mob,
+  .modal,
+  .mask{
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+</style>
+
+<style>
   
   .anim-load{
     box-shadow: 0 0 0 0 #cb342b;
@@ -51,7 +66,7 @@
   });
 </script>
 
-<style>
+<!-- <style>
 
   .burger,
   .nav-mob,
@@ -65,7 +80,7 @@
     cursor: pointer;
   }
 
-</style>
+</style> -->
 
 <body>
 
@@ -73,6 +88,7 @@
     <div class="container">
       <div class="header-wrap">
         <div class="header-row">
+          <div class="hidden-burger"></div>
           <div class="header-logo">
             <div class="header-logo-img">
               <a href="./">
@@ -96,11 +112,6 @@
                 <li class="nav-item">
                   <a href="#contact" class="nav-link">
                     Bog'lanish
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#news" class="nav-link">
-                    Yangiliklar
                   </a>
                 </li>
               </ul>
@@ -796,6 +807,7 @@
         </div>
       </div>
       <form action="telegram.php" method="POST" class="modal-form">
+        <input class="modal-input modal-input-dis" name="user_item" type="text" value="asd" disabled>
         <input class="modal-input" name="user_name" type="text" placeholder="Ваша имя">
         <input class="modal-input" name="user_phone" type="text" placeholder="Ваш номер телефона">
         <input type="submit" class="modal-submit" placeholder="Заказать">
@@ -820,39 +832,29 @@
     </div>
   </div>
   <!-- burger -->
-  
+
   <div class="nav-mob">
 
     <nav class="nav-fixed">
       <ul class="nav-fixed-list">
         <li class="nav-fixed-item">
-          <a class="nav-fixed-link-2" href="./index.html">
-            Главная
-          </a>
-        </li>
-        <li class="nav-fixed-item">
-          <a class="nav-fixed-link" href="#product">
-            Продукты
+          <a class="nav-fixed-link-2" href="./">
+            Bosh sahifa
           </a>
         </li>
         <li class="nav-fixed-item">
           <a class="nav-fixed-link" href="#about">
-            О Продукте
+            Kompaniya haqida
           </a>
         </li>
         <li class="nav-fixed-item">
-          <a class="nav-fixed-link" href="#review">
-            Отзыв
-          </a>
-        </li>
-        <li class="nav-fixed-item">
-          <a class="nav-fixed-link" href="#certificate">
-            Сертификаты
+          <a class="nav-fixed-link" href="#product">
+            Mahsulotlarimiz
           </a>
         </li>
         <li class="nav-fixed-item">
           <a class="nav-fixed-link" href="#contact">
-            контакты
+            Bog'lanish
           </a>
         </li>
       </ul>
@@ -899,8 +901,8 @@
   <!-- custom -->
 
   <!-- <script src="./assets/js/slider.js"></script> -->
-  <!-- <script src="./assets/js/burger.js"></script> -->
-  <!-- <script src="./assets/js/to-top.js"></script> -->
+  <script src="./assets/js/burger.js"></script>
+  <script src="./assets/js/to-top.js"></script>
   <script src="./assets/js/main.js"></script>
   <script src="./assets/js/scroll.js"></script>
 

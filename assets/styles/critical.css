@@ -193,7 +193,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  height: 89px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,6 +225,10 @@ svg {
   justify-content: flex-start;
 }
 
+.header-logo-img img {
+  margin: 0 auto;
+}
+
 .header-btn {
   display: flex;
   height: 32px;
@@ -241,9 +245,6 @@ svg {
   border-radius: 5px;
   cursor: pointer;
   transition: all .15s linear;
-}
-
-.header-lang:hover {
   background-color: #fff;
   color: #4EC354;
 }
@@ -358,6 +359,10 @@ svg {
 
 .scroll-d .nav-link {
   color: #4EC354;
+}
+
+.hidden-burger {
+  display: none;
 }
 
 .nav-list {
@@ -540,6 +545,7 @@ svg {
 .intro-img #woman-socks,
 .intro-img #kid-socks,
 .intro-img #sport-socks {
+  pointer-events: none;
   position: absolute;
   width: 100%;
   top: 0;
@@ -558,7 +564,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  height: 89px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -590,6 +596,10 @@ svg {
   justify-content: flex-start;
 }
 
+.header-logo-img img {
+  margin: 0 auto;
+}
+
 .header-btn {
   display: flex;
   height: 32px;
@@ -606,9 +616,6 @@ svg {
   border-radius: 5px;
   cursor: pointer;
   transition: all .15s linear;
-}
-
-.header-lang:hover {
   background-color: #fff;
   color: #4EC354;
 }
@@ -723,6 +730,10 @@ svg {
 
 .scroll-d .nav-link {
   color: #4EC354;
+}
+
+.hidden-burger {
+  display: none;
 }
 
 .header {
@@ -731,7 +742,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  height: 89px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -763,6 +774,10 @@ svg {
   justify-content: flex-start;
 }
 
+.header-logo-img img {
+  margin: 0 auto;
+}
+
 .header-btn {
   display: flex;
   height: 32px;
@@ -779,9 +794,6 @@ svg {
   border-radius: 5px;
   cursor: pointer;
   transition: all .15s linear;
-}
-
-.header-lang:hover {
   background-color: #fff;
   color: #4EC354;
 }
@@ -896,6 +908,10 @@ svg {
 
 .scroll-d .nav-link {
   color: #4EC354;
+}
+
+.hidden-burger {
+  display: none;
 }
 
 .header {
@@ -904,7 +920,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  height: 89px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -936,6 +952,10 @@ svg {
   justify-content: flex-start;
 }
 
+.header-logo-img img {
+  margin: 0 auto;
+}
+
 .header-btn {
   display: flex;
   height: 32px;
@@ -952,9 +972,6 @@ svg {
   border-radius: 5px;
   cursor: pointer;
   transition: all .15s linear;
-}
-
-.header-lang:hover {
   background-color: #fff;
   color: #4EC354;
 }
@@ -1069,4 +1086,8 @@ svg {
 
 .scroll-d .nav-link {
   color: #4EC354;
+}
+
+.hidden-burger {
+  display: none;
 }
